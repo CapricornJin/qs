@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寝室主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+    margin: 0;
+    color: #FFFFFF;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+    color: #000000;
+    font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('your-image.jpg') no-repeat 0 -100px;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #000000;
+        }
+        #showcase p {
+    font-size: 20px;
+    color: #000000;
+        }
+        #main {
+            padding: 15px;
+            color: #ffffff;
+            background: #333333;
+        }
+        #main .member {
+            float: left;
+            width: 25%;
+            margin: 2%;
+            padding: 10px;
+            background: #444444;
+        }
+        #main .member img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        #main .member h2 {
+            margin-top: 10px;
+        }
+        footer {
+            background: #333333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight"><strong style="color: #FFFFFF">221</strong></span> &nbsp;寝室主页</h1>
+            </div>
+            <nav>
+                <ul>               
+                    <li><a href="https://capricornjin.github.io/geren/">回到班级</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我们的寝室主页</h1>
+            <p>Welcome to our dormitory homepage！</p>
+      </div>
+    </section>
+
+<section id="main">
+        <div class="container">
+          <div class="member">
+                <img src="image/jin.jpg" alt="Member 1" >
+                <h2>寝室长&nbsp;</h2>
+            <p><a href="https://capricornjin.github.io/geren/">金泽文&nbsp;</a></p>
+          </div>
+            <div class="member">
+              <img src="image/lu.jpg" alt="Member 2">
+                <h2>成员&nbsp;</h2>
+                <p><a href="https://capricornjin.github.io/geren/">鲁以诺</a>&nbsp;</p>
+            </div>
+            <div class="member">
+              <img src="image/wang.jpg" alt="Member 3">
+                <h2>成员</h2>
+                <p><a href="https://capricornjin.github.io/geren/">王茹涵</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
